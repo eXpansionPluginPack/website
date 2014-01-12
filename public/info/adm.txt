@@ -15,4 +15,39 @@ included in AutoLoad
 
 [h1]Configuration options[/h1]
 
+[h2]Player Restart Map Settings[h2]
+This allows players to restart the map if they the proper amount of planets to do so. 
+
+[b]Var Name : [/b]publicResAmount
+
+[h3]Default Configuration[/h3]
+[code]
+ManiaLivePlugins\eXpansion\Adm\publicResAmount[] = 20
+ManiaLivePlugins\eXpansion\Adm\publicResAmount[] = 50
+ManiaLivePlugins\eXpansion\Adm\publicResAmount[] = 200[/code]
+
+This means that on first restart the player will pay 20 planets, second restart 50 and third restart 200. A fourth restart of the same map is not permitted. 
+
+[h3]Disallow players to restart map[/h3]
+[code]ManiaLivePlugins\eXpansion\Adm\publicResAmount[] = -1[/code]
+
+[h2]Player Skip Map Settings[h2]
+This allows players to skip a map if they the proper amount of planets to do so. 
+
+[b]Var Name : [/b]publicSkipAmount
+
+[h3]Default Configuration[/h3]
+[code]
+ManiaLivePlugins\eXpansion\Adm\publicSkipAmount[] = -1[/code]
+
+This means that players can't skip a map, only admins can.
+
+[h3]Exemple Configuration[/h3]
+[code]
+ManiaLivePlugins\eXpansion\Adm\publicSkipAmount[] = 200
+ManiaLivePlugins\eXpansion\Adm\publicSkipAmount[] = 500
+ManiaLivePlugins\eXpansion\Adm\publicSkipAmount[] = 2000[/code]
+
+This means when 1 player skips for the first time a map he will pay 200 planets, if he skips the next map as well he will pay 500 planets. If he skips 3 consecutive maps he will pay 2000 planets. He can not skip 4 maps in consecutive.
+
 none.
