@@ -1,0 +1,20 @@
+[h2]Download latest development version[/h2]
+
+
+[table]
+[tr]
+[td][b]eXpansion plugins latest[/b]
+[small]We try to keep this version running without problems, but sometimes it may be broken due large updates, please 
+refer the [url=https://github.com/eXpansionPluginPack/eXpansion/commits/master]changlog[/url] to see the status of development version. [/small]
+[/td]
+[td][button=https://github.com/eXpansionPluginPack/eXpansion/archive/master.zip]Download[/button]
+[url=/documentation/installation tutorial for windows]Install Tutorial[/url][/td]
+[/tr]
+[tr]
+[td][b]MusicBox Manager[/b][/td]
+[td][button=/dl/musicboxmanager_v1.zip]Download[/button]
+[url=/documentation/musicbox manager]Usage Tutorial[/url]
+[/td]
+[/tr]
+[/table]
+

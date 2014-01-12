@@ -1,0 +1,10 @@
+﻿[h1]Widgets_Record[/h1]
+shows dedimania and localrecords on TAB-layer (by default) or as widget on normal layer at left edge of screen
+
+[h1]how to enable[/h1]
+autoloaded.
+
+[h1]Configuration options[/h1]
+[source]
+ManiaLivePlugins\eXpansion\Widgets_Record\Config.layer = 'score'   ;;normal or score
+[/source]

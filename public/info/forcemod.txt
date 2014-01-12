@@ -1,0 +1,19 @@
+﻿[h1]ForceMod[/h1]
+enables a custom mod-file to be forced at server.
+
+[h1]how to enable[/h1]
+add following line to [code]<ManiaLive>\config\config.ini[/code]
+[source]
+manialive.plugins[] = 'eXpansion\ForceMod'
+[/source]
+[h1]Configuration options[/h1]
+you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+
+[source]
+;;mandatory
+ManiaLivePlugins\eXpansion\ForceMod\Config.mods[] = "http://your_server.com/mod1.zip"
+ManiaLivePlugins\eXpansion\ForceMod\Config.mods[] = "http://your_server.com/mod2.zip"
+
+;; optional
+ManiaLivePlugins\eXpansion\ForceMod\Config.loadscreen = "http://your_server.com/loadscreen.png"
+[/source]	

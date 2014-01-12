@@ -1,0 +1,9 @@
+﻿[h1]Players[/h1]
+a players list with kick, ban, blackslist, mute, force spec for admins
+[img]/img/players_win.jpg[/img]
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+none.

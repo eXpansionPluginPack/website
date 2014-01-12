@@ -1,0 +1,9 @@
+﻿[h1]Widgets_PersonalBest[/h1]
+Shows little widget with your statistics at bottom right of the screen
+[img]/img/personalbest.jpg[/img]
+
+[h1]how to enable[/h1]
+autoloaded.
+
+[h1]Configuration options[/h1]
+none.

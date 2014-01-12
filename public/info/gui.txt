@@ -1,0 +1,7 @@
+﻿[h1]Gui[/h1]support plugin.
+
+[h1]how to enable[/h1]
+Autoloaded.
+
+[h1]Configuration options[/h1]
+none.

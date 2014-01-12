@@ -1,0 +1,10 @@
+﻿[h1]Widgets_BestCheckpoints[/h1]
+familiar widget to center top of the screen
+
+[h1]how to enable[/h1]
+add following line to [code]<ManiaLive>\config\config.ini[/code]
+[source]
+manialive.plugins[] = 'eXpansion\Widgets_BestCheckpoints'
+[/source]
+[h1]Configuration options[/h1]
+none.

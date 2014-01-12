@@ -1,0 +1,84 @@
+[h2]Installation tutorial[/h2] Watch full install tutorial at [url]www.youtube.com/watch?v=SLMTSJVlT_Y[/url]
+
+[h2]Environment setup[/h2] To install eXpansion, you first need a working ManiaLive installation which needs a working ManiaPlanet Dedicated server.
+
+You can follow the installation guide there, but in Windows make the default install to a hard drive root i.e. [i]C:\tm_dedicated\server1\[/i] or[i] D:\tm_dedicated\server1\[/i]
+
+This example will use XAMPP as the server component for MySQL and PHP. You can also use WAMPP, Uniform-server or get the official service-packages for PHP and MySQL.
+
+Installation package for XAMPP can be found at: http://www.apachefriends.org/en/xampp-windows.html
+
+The recommended place to install XAMPP is at root of any hard drive, i.e. C:\xampp\, D:\xampp and so on. This installation guide will use C:\xampp for default location. After installing and doing the basic security settings open the following directory: c:\xampp\php\
+
+Find file named php.ini and use Notepad++ to edit the file contents.
+Search for php_curl it should be somewhere near line 950.Remove semicolon from the start of the line, the text-color changes from green to black this means the option is enabled. Search for php_sqlite and remove the semicolon if any, do same for php_sqlite3
+
+Write following additional line at the end of the extensions:
+
+[code]
+extension=php_openssl.dll
+[/code]
+
+Save and close the editor for now.
+
+[h2]MySQL Setup[/h2]
+
+To set up MySQL databases, please launch your web-browser and type-in following address: http://127.0.0.1/phpmyadmin
+
+If you are asked to log in, give login: root and empty as password, and change the root password the next thing.
+
+Once logged in: 
+Click privileges 
+Click add a new User
+
+If you are setting up multiple servers, a good naming idea might be: manialive_server1, manialive_server2 or if you have already choosen the login names of the servers then use those to make individual databases.
+
+Below is example of the view you should have
+
+[code]
+User name: manialive_server1
+Host: localhost 
+Password: ********
+Re-type: ********
+Database for user: 
+{ } none 
+{x} create database with same name and grant all privileges. 
+{ } Grant all privileges on wildcard name (username\%)[/code]
+
+Click the little Go button at bottom right and we now are set up fo MySQL.
+
+[h2]Manialive[/h2]To obtain the latest packages for ManiaLive use following link: http://code.google.com/p/manialive/downloads/list
+
+Download latest ManiaLive up to date and the standard plug-ins. You should have dedicated server installed already, you can use that directory or do separate directory for server controller. Let’s assume you did the directories like suggested earlier in this document. So head to C:\tm_dedicated\
+Unzip the ManiaLive zip package there. It should create a folder named manialive_???
+
+edit c:\tm_servers\manialive\run.ini
+
+[code]
+;do not edit this line
+phpPath=C:\xampp\php\php.exe
+[/code]
+
+Save and quit.
+
+Edit c:\tm_servers\manialive\config\config.ini and remove semicolon ";" before any lines you need to alter.
+Fill in your dedicated server xmlrpc port, mysql credentials, and add a masteradmin login.
+ 
+
+[h2]eXpansion setup[/h2]Download the latest eXpansion from github: [button=https://github.com/eXpansionPluginPack/eXpansion/archive/master.zip]Download[/button]
+
+Extract the zip to c:\tm_servers\manialive\libraries\ManiaLivePlugins. It will create a folder named [code]eXpansion-master[/code], now rename it to [code]eXpansion[/code]
+
+Then edit the config.ini at C:\tm_servers\manialive\config and add following lines:
+
+[code]
+ManiaLivePlugins\eXpansion\Dedimania\Config.login = ""
+ManiaLivePlugins\eXpansion\Dedimania\Config.code = ""
+manialive.plugins[] = 'eXpansion\AutoLoad'
+manialive.plugins[] = 'eXpansion\Dedimania'
+[/code]
+
+Fill in your dedimania_login and dedimania_code, if you don't have them yet you can obtain the dedimania codes from 
+http://dedimania.net/tm2stats/?do=register
+
+finally start manialive!

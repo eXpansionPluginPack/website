@@ -1,0 +1,9 @@
+﻿[h1]Maps[/h1]
+maps listing plugin, you can also sort the columns by clicking the column header, first time a-z, and second z-a
+[img]/img/maps_win.jpg[/img]
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+none.

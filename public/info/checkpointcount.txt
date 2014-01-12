@@ -1,0 +1,10 @@
+﻿[h1]CheckpointCounter[/h1]
+s a widget familiar from XAseco, simply displays current checkpoint at bottom of the screen
+
+[h1]how to enable[/h1]
+add following line to [code]ManiaLive\config\config.ini[/code]
+
+[source]manialive.plugins[] = 'eXpansion\CheckpointCounter[/source]
+
+[h1]Configuration options[/h1]
+none.	

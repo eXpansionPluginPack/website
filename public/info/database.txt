@@ -1,0 +1,12 @@
+﻿[h1]Database[/h1]
+this plugin creates and manages databases.
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+
+[source]
+ManiaLivePlugins\eXpansion\Database\Config.showWins = true;
+[/source]	

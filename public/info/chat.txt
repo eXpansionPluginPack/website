@@ -1,0 +1,17 @@
+﻿[h1]Chat[/h1]
+Customizes the chatbox text.
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+
+[source]
+ManiaLivePlugins\eXpansion\Chat\Config.publicChatColor = '$ff0'
+ManiaLivePlugins\eXpansion\Chat\Config.otherServerChatColor = '$0d0'
+ManiaLivePlugins\eXpansion\Chat\Config.adminChatColor = '$ff0'
+ManiaLivePlugins\eXpansion\Chat\Config.adminSign = ""
+ManiaLivePlugins\eXpansion\Chat\Config.chatSeparator = '$w$0ff·$z$s '
+ManiaLivePlugins\eXpansion\Chat\Config.allowMPcolors = true
+[/source]	

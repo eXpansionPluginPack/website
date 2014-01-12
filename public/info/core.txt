@@ -1,0 +1,37 @@
+﻿[h1]Core[/h1]
+The basis of the pluginpack.
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+
+[source]
+ManiaLivePlugins\eXpansion\Core\Config.debug = false;
+ManiaLivePlugins\eXpansion\Core\Config.language = null;
+ManiaLivePlugins\eXpansion\Core\Config.defaultLanguage = null;
+ManiaLivePlugins\eXpansion\Core\Config.Colors_admin_error = '$f44';  // error message color for admin
+ManiaLivePlugins\eXpansion\Core\Config.Colors_error = '$f00';   // general error message color
+ManiaLivePlugins\eXpansion\Core\Config.Colors_admin_action = '$0ae'; // admin actions color
+ManiaLivePlugins\eXpansion\Core\Config.Colors_variable = '$eee'; // generic variable color
+ManiaLivePlugins\eXpansion\Core\Config.Colors_record = '$6EF'; // all other local records
+ManiaLivePlugins\eXpansion\Core\Config.Colors_record_top = '$6f3'; // top5 local records
+ManiaLivePlugins\eXpansion\Core\Config.Colors_rank = '$ff0'; // used in record messages for rank
+ManiaLivePlugins\eXpansion\Core\Config.Colors_time = '$fff';
+ManiaLivePlugins\eXpansion\Core\Config.Colors_rating = '$fb3'; // map ratings color
+ManiaLivePlugins\eXpansion\Core\Config.Colors_queue = '$8af';  // map queue messages
+ManiaLivePlugins\eXpansion\Core\Config.Colors_dedirecord = '$69C'; // dedimania records
+ManiaLivePlugins\eXpansion\Core\Config.Colors_donate = '$a0f'; // donate
+ManiaLivePlugins\eXpansion\Core\Config.Colors_personalmessage = '$0ff'; // personal messages
+ManiaLivePlugins\eXpansion\Core\Config.Colors_admingroup_chat = '$f00'; // personal messages
+ManiaLivePlugins\eXpansion\Core\Config.Colors_player = '$z$s$29f';  // used in joinleave-messages
+ManiaLivePlugins\eXpansion\Core\Config.Colors_music = '$f0a';       // music box
+ManiaLivePlugins\eXpansion\Core\Config.Colors_quiz = '$z$s$3e3';    // quiz
+ManiaLivePlugins\eXpansion\Core\Config.Colors_question = '$z$s$o$fa0';  // quiz answer
+    
+ManiaLivePlugins\eXpansion\Core\Config.time_dynamic_max = '7:00';  // dynamic timelimit max time for /ta dynamic <x>
+ManiaLivePlugins\eXpansion\Core\Config.time_dynamic_min = '4:00';  // dynamic timelimit min time for /ta dynamic <x>
+    
+ManiaLivePlugins\eXpansion\Core\Config.API_Version = '2013-05-16'; //ApiVersion can be 2011-10-06 for TM and 2013-04-16 for SM Add in config 
+[/source]	

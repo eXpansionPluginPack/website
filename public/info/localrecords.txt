@@ -1,0 +1,20 @@
+﻿[h1]LocalRecords[/h1]
+Adds local server records to database.
+
+[h1]how to enable[/h1]
+autoloaded.
+
+[h1]Configuration options[/h1]
+you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+
+[source]
+ManiaLivePlugins\eXpansion\LocalRecords\Config.sendBeginMapNotices = false;
+ManiaLivePlugins\eXpansion\LocalRecords\Config.sendRankingNotices = false;
+ManiaLivePlugins\eXpansion\LocalRecords\Config.recordsCount = 100;
+
+ManiaLivePlugins\eXpansion\LocalRecords\Config.lapsModeCount1lap = true;
+
+ManiaLivePlugins\eXpansion\LocalRecords\Config.nbMap_rankProcess = 1;
+ManiaLivePlugins\eXpansion\LocalRecords\Config.ranking = true;
+ManiaLivePlugins\eXpansion\LocalRecords\Config.rankRefresh = 5;
+[/source]

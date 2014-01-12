@@ -1,0 +1,11 @@
+﻿[h1]PersonalMessages[/h1]
+This plugin provides 1 to 1 communications for players, using /pm <login> message
+after first sent message you can reply back by /r message
+
+also provides admin chat channel /a message to be sent
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+none.

@@ -1,0 +1,12 @@
+[h1]AdminGroups[/h1]
+
+todo: write documentation about usage with screencaptures.
+
+[h1]how to enable[/h1]
+
+Autoloaded.
+
+[h1]Configuration options[/h1]
+
+this plugin will generate automatically admins configuration file at [code]ManiaLive\Config\<serverlogin>_admins.ini<[/code]
+please don't edit it manually.

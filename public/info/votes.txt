@@ -1,0 +1,30 @@
+﻿[h1]Votes[/h1]
+replaces native votes.
+
+
+[h1]how to enable[/h1]
+autoloaded.
+
+[h1]Configuration options[/h1]
+
+[source]
+ManiaLivePlugins\eXpansion\Votes\Config.restartVote_enable = true;
+;; -1 = server default, otherwise 0.00 - 1.00
+ManiaLivePlugins\eXpansion\Votes\Config.restartVote_ratio = -1;       
+;; '0' for server default, '1' for indefinite, otherwise set number of desired seconds
+ManiaLivePlugins\eXpansion\Votes\Config.restartVote_timeout = 0; 
+;; '0' means only active players, '1' means any player, '2' is for everybody, pure spectators included    
+ManiaLivePlugins\eXpansion\Votes\Config.restartVote_voters = 1;       
+;; Use track queue instead of instant restart, if 'eXpansion\Maps' plugin is loaded
+ManiaLivePlugins\eXpansion\Votes\Config.restartVote_useQueue = true;  
+	
+ManiaLivePlugins\eXpansion\Votes\Config.skipVote_enable = true;
+ ;; -1 = server default, otherwise 0.00 - 1.00
+ManiaLivePlugins\eXpansion\Votes\Config.skipVote_ratio = -1;  
+;; '0' for server default, '1' for indefinite, otherwise set number of desired seconds  
+ManiaLivePlugins\eXpansion\Votes\Config.skipVote_timeout = 0;   
+ ;; '0' means only active players, '1' means any player, '2' is for everybody, pure spectators included
+ManiaLivePlugins\eXpansion\Votes\Config.skipVote_voters = 1;
+ ;; Limits skip votes to within set number of seconds from beginning of match; '-1' or false to disable, set to desired # of seconds
+ManiaLivePlugins\eXpansion\Votes\Config.skipVote_limit = -1;     
+[/source]

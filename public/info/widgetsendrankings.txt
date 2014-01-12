@@ -1,0 +1,8 @@
+﻿[h1]Widgets_EndRankings[/h1]
+Shows a local server ranks at podium
+[img]/img/serverranks.jpg[/img]
+[h1]how to enable[/h1]
+autoloaded.
+
+[h1]Configuration options[/h1]
+none.

@@ -1,0 +1,8 @@
+﻿[h1]Emotes[/h1]
+Add some predefined emote-messages for server.
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+none.

@@ -1,0 +1,10 @@
+[h1]Participate[/h1] There are multiple ways to to participate for project!
+
+[list]
+[li]You can help by providing a translation for your language, or enhance the current translation![/li]
+[li]Submit an issue if you encounter one to our [url=https://github.com/eXpansionPluginPack/eXpansion/issues]issue tracker[/url][/li]
+[li]Contact us and suggest a feature to be added[/li]
+[li]If you are coder and want to participate, don't hesitate to fork the project, apply an patch and contact us for full write access to project[/li]
+[/list]
+
+

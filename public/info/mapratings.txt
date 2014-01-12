@@ -1,0 +1,15 @@
+﻿[h1]MapRatings[/h1]
+Basicly a map karma plugin. This uses 5-star system to rate the map.
+Displays widget at end of map by default. Chat triggers: +++,++,+,-,--,---
+[img]/img/rate_widget.jpg[/img]
+
+[h1]how to enable[/h1]
+This plugin is Autoloaded.
+
+[h1]Configuration options[/h1]
+
+[source]
+ManiaLivePlugins\eXpansion\MapRatings\Config.sendBeginMapNotices = false     ;; Sends chat message of current rating at map start
+ManiaLivePlugins\eXpansion\MapRatings\Config.showPodiumWindow = true	    ;; enable showing maprating window at podium
+
+[/source]

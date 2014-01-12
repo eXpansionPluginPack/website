@@ -1,0 +1,25 @@
+﻿[h1]Dedimania[/h1]
+Dedimania integration plugin.
+
+[b]Note![/b]
+this plugin will save files to [code]<dedicatedserver>\UserData\Replays\Dedimania\[/code]
+if your server is highly visited and new records are being driven, the folder may build up to take diskspace quite much, since a replay-file takes space typically from 300kb to 500kb!
+
+[h1]how to enable[/h1]
+add following line to [code]ManiaLive\config\config.ini[/code]
+[source]manialive.plugins[] = 'eXpansion\Dedimania'[/source]
+
+[h1]Configuration options[/h1]
+you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+
+[source]
+;;mandatory
+ManiaLivePlugins\eXpansion\Dedimania\Config.login = "your_dedimania_login";
+ManiaLivePlugins\eXpansion\Dedimania\Config.code = "your_dedimania_code";
+
+;; optional
+ManiaLivePlugins\eXpansion\Dedimania\Config.showWins = true;
+ManiaLivePlugins\eXpansion\Dedimania\Config.show_record_msg_to_all = true;
+ManiaLivePlugins\eXpansion\Dedimania\Config.show_welcome_msg = true;
+ManiaLivePlugins\eXpansion\Dedimania\Config.disableMessages = false;
+[/source]	

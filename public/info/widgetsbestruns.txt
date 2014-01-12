@@ -1,0 +1,11 @@
+﻿[h1]Widgets_BestRuns[/h1]
+a best runs widget to center top of the screen
+
+[h1]how to enable[/h1]
+add following line to [code]<ManiaLive>\config\config.ini[/code]
+[source]
+manialive.plugins[] = 'eXpansion\Widgets_BestRuns'
+[/source]
+
+[h1]Configuration options[/h1]
+none.
