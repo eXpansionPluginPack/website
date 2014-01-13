@@ -15,7 +15,7 @@ included in AutoLoad
 
 [h1]Configuration options[/h1]
 
-[h2]Player Restart Map Settings[h2]
+[h2]Player Restart Map Settings[/h2]
 This allows players to restart the map if they the proper amount of planets to do so. 
 
 [b]Var Name : [/b]publicResAmount
@@ -31,7 +31,7 @@ This means that on first restart the player will pay 20 planets, second restart 
 [h3]Disallow players to restart map[/h3]
 [code]ManiaLivePlugins\eXpansion\Adm\publicResAmount[] = -1[/code]
 
-[h2]Player Skip Map Settings[h2]
+[h2]Player Skip Map Settings[/h2]
 This allows players to skip a map if they the proper amount of planets to do so. 
 
 [b]Var Name : [/b]publicSkipAmount
