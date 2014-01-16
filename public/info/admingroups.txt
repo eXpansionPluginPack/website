@@ -1,6 +1,48 @@
 [h1]AdminGroups[/h1]
 
-todo: write documentation about usage with screencaptures.
+Admin groups is a plugin that will intercept all admin commands in order to check if a user has required privileges to use that command. 
+The plug-in will also allow you to manage all your admins and their permissions easily. You don't need to modify complicated config files or commands you just use it like you would use any other desktop application. 
+
+To be able to use this you first need to be admin yourself, the easiest way to do this is to add yourself to the admin list of [b]manialive [/b]itself. If you are using Manialive you must have done this already. Just add this line in the config : 
+[code] manialive.admins[] = 'your login'[/code]
+
+Once an admin just start manialive and join your server.  On your server use the fallowing command : 
+[code]/admin groups[/code]
+
+Don't worry this is the last command you will use :D
+On the [b]Admin Groups page[/b] you can see a list of different Admin Groups. [b]Master Admin[/b] group can't be deleted, it is the group that has all the permissions, and the group where all ManiaLive admins are automatically added. 
+
+[h2]Adding Admins[/h2]
+Just click on [b]Players [/b]on the [b]Admin Groups page[/b] of the group into which you want to add a player. 
+A new page with the player list will appear. Write the login of the user on the input box on top and press [b]Add[/b]. 
+
+[img]http://www.ml-expansion.com/templates/expsite/img/AdmGroups_addPlayer.jpg[/img]
+
+You have added an Admin to that group. It should appear in the list below. 
+
+[h2]Adding Groups [/h2]
+On [b]Admin Groups page[/b] just fill up the input bow on top with the name of the group and then click on [b]Add[/b]. 
+
+[img]http://www.ml-expansion.com/templates/expsite/img/AdmGroups_addGroup.jpg[/img]
+
+You have created a new group. New groups has no permissions by default. 
+
+[h2]Inheriting permissions [/h2]
+Let's know say you want to create a new group [i]VIP Members[/i] to whom you want to give the same permissions as a [i]Operator[/i]. You may redefine the permissions manually of use the inheritance. 
+On the [b]Admin Groups page[/b] click on [b]Inheritance [/b]of the [i]VIP Members[/i] group you have created. It will open a new window. On this window just search for the [i]Operator [/i]group and check the checkbox. 
+
+[img]http://www.ml-expansion.com/templates/expsite/img/AdmGroups_inherit.jpg[/img]
+
+You can now close the window it is done, the group will inherit the permissions of the other group.
+
+[h2]Changing permissions [/h2]
+After a while you have observed that the [i]VIP Members[/i] abuses their right to mute people; you would like to remove this permission from them. 
+On the [b]Admin Groups page[/b] click on permissions of [i]VIP Members[/i]. Search for the player mute permission. First remove the check on the [b]inherit [/b]checkbox then be sure the [b]permission [/b]checkbox is unchecked. 
+
+[img]http://www.ml-expansion.com/templates/expsite/img/AdmGroups_permission.jpg[/img]
+
+You are done. All other permissions will still be inherited by Operator group but not the player mute permission. 
+
 
 [h1]how to enable[/h1]
 

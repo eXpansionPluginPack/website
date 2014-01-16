@@ -19,5 +19,4 @@ class Page {
             require_once(__DIR__ . DIRECTORY_SEPARATOR . "_data" . DIRECTORY_SEPARATOR . "step1.php");
         }
     }
-
 }
