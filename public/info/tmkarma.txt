@@ -8,10 +8,11 @@ manialive.plugins[] = 'eXpansion\TMKarma'
 [/source]
 
 [h1]Configuration options[/h1]
+[h2]countryCode[/h2]
+in case autodiscover fails, set default country code here (3 letters uppercase)
 
-The plugin will try to autosense your servers country by using geoip service.
-You can define own country code if the autosense doesn't work.
+[b]Var Name : [/b]countryCode (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\TMKarma\countryCode[] = 
+[/code]
 
-[source]
-ManiaLivePlugins\eXpansion\TMKarma\Config.countryCode = "deu";
-[/source]

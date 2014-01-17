@@ -7,9 +7,19 @@ Displays widget at end of map by default. Chat triggers: +++,++,+,-,--,---
 This plugin is Autoloaded.
 
 [h1]Configuration options[/h1]
+[h2]sendBeginMapNotices[/h2]
+Sends chat message of  current rating at map start
 
-[source]
-ManiaLivePlugins\eXpansion\MapRatings\Config.sendBeginMapNotices = false     ;; Sends chat message of current rating at map start
-ManiaLivePlugins\eXpansion\MapRatings\Config.showPodiumWindow = true	    ;; enable showing maprating window at podium
+[b]Var Name : [/b]sendBeginMapNotices (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\MapRatings\sendBeginMapNotices[] = false
+[/code]
 
-[/source]
+[h2]showPodiumWindow[/h2]
+enable showing maprating window at podium
+
+[b]Var Name : [/b]showPodiumWindow (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\MapRatings\showPodiumWindow[] = true
+[/code]
+

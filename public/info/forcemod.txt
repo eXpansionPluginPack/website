@@ -7,13 +7,18 @@ add following line to [code]<ManiaLive>\config\config.ini[/code]
 manialive.plugins[] = 'eXpansion\ForceMod'
 [/source]
 [h1]Configuration options[/h1]
-you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+[h2]mods[/h2]
+url address of the mod .zip file. example: http://reaby.kapsi.fi/ml/mods/xmas2.zip
 
-[source]
-;;mandatory
-ManiaLivePlugins\eXpansion\ForceMod\Config.mods[] = "http://your_server.com/mod1.zip"
-ManiaLivePlugins\eXpansion\ForceMod\Config.mods[] = "http://your_server.com/mod2.zip"
+[b]Var Name : [/b]mods (array( string))
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\ForceMod\mods[] = 
+ManiaLivePlugins\eXpansion\ForceMod\mods[] = 
+ManiaLivePlugins\eXpansion\ForceMod\mods[] = 
+[/code]
 
-;; optional
-ManiaLivePlugins\eXpansion\ForceMod\Config.loadscreen = "http://your_server.com/loadscreen.png"
-[/source]	
+[h2]List of Mods[/h2]
+[b]Var Name : [/b]disable ()
+[h3]Default Configuration[/h3]
+[code][/code]
+

@@ -10,16 +10,19 @@ add following line to [code]ManiaLive\config\config.ini[/code]
 [source]manialive.plugins[] = 'eXpansion\Dedimania'[/source]
 
 [h1]Configuration options[/h1]
-you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+[h2]login[/h2]
+Use the login of the dedicated server
 
-[source]
-;;mandatory
-ManiaLivePlugins\eXpansion\Dedimania\Config.login = "your_dedimania_login";
-ManiaLivePlugins\eXpansion\Dedimania\Config.code = "your_dedimania_code";
+[b]Var Name : [/b]login (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Dedimania\login[] = 
+[/code]
 
-;; optional
-ManiaLivePlugins\eXpansion\Dedimania\Config.showWins = true;
-ManiaLivePlugins\eXpansion\Dedimania\Config.show_record_msg_to_all = true;
-ManiaLivePlugins\eXpansion\Dedimania\Config.show_welcome_msg = true;
-ManiaLivePlugins\eXpansion\Dedimania\Config.disableMessages = false;
-[/source]	
+[h2]code[/h2]
+Visit <a href="http://dedimania.net/tm2stats/?do=register">http://dedimania.net/tm2stats/?do=register</a> to get code for your server.
+
+[b]Var Name : [/b]code (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Dedimania\code[] = 
+[/code]
+

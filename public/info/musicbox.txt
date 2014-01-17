@@ -28,10 +28,27 @@ manialive.plugins[] = 'eXpansion\MusicBox'
 [/source]
 
 [h1]Configuration options[/h1]
+[h2]url[/h2]
+url of musicbox files and index.csv
 
-[source]
-ManiaLivePlugins\eXpansion\MusicBox\Config.url = "http://reaby.kapsi.fi/ml/musictest";
-ManiaLivePlugins\eXpansion\MusicBox\Config.override = true;
-ManiaLivePlugins\eXpansion\MusicBox\Config.widgetPosition = "0,70";
+[b]Var Name : [/b]url (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Musicbox\url[] = http://reaby.kapsi.fi/ml/musictest
+[/code]
 
-[/source]
+[h2]override[/h2]
+override all music, even musics in mod files
+
+[b]Var Name : [/b]override (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Musicbox\override[] = true
+[/code]
+
+[h2]widgetPosition[/h2]
+widget position format: [x],[y] in maniaplanet display units
+
+[b]Var Name : [/b]widgetPosition (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Musicbox\widgetPosition[] = 0,70
+[/code]
+

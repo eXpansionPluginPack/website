@@ -8,9 +8,11 @@ manialive.plugins[] = 'eXpansion\IdleKick'
 [/source]
 
 [h1]Configuration options[/h1]
-you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+[h2]Maximum idling time[/h2]
+Number of minutes after which the player will be kicked
 
-[source]
-ManiaLivePlugins\eXpansion\IdleKick\Config.idleMinutes = 10
+[b]Var Name : [/b]idleMinutes (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\IdleKick\idleMinutes[] = 10
+[/code]
 
-[/source]

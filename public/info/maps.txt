@@ -6,4 +6,35 @@ maps listing plugin, you can also sort the columns by clicking the column header
 This plugin is Autoloaded.
 
 [h1]Configuration options[/h1]
-none.
+[h2]bufferSize[/h2]
+how many maps can't be juked
+
+[b]Var Name : [/b]bufferSize (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Maps\bufferSize[] = 5
+[/code]
+
+[h2]historySize[/h2]
+how many maps in history
+
+[b]Var Name : [/b]historySize (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Maps\historySize[] = 7
+[/code]
+
+[h2]showNextMapWidget[/h2]
+display next map widget
+
+[b]Var Name : [/b]showNextMapWidget (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Maps\showNextMapWidget[] = true
+[/code]
+
+[h2]showEndMatchNotices[/h2]
+display chat message at podium
+
+[b]Var Name : [/b]showEndMatchNotices (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Maps\showEndMatchNotices[] = true
+[/code]
+

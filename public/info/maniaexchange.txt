@@ -6,4 +6,43 @@ ManiaExchange integration plugin
 This plugin is Autoloaded.
 
 [h1]Configuration options[/h1]
-none.
+[h2]Enable MX Votes[/h2]
+allow players/admins to queue tracks from MX
+
+[b]Var Name : [/b]mxVote_enable (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\ManiaExchange\mxVote_enable[] = true
+[/code]
+
+[h2]Vote Ratio[/h2]
+vote ratio required to pass, 0.00 - 1.00
+
+[b]Var Name : [/b]mxVote_ratio (float)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\ManiaExchange\mxVote_ratio[] = 0.5
+[/code]
+
+[h2]Vote TimeOut[/h2]
+'0' for server default, '1' for indefinite, otherwise set number of desired seconds
+
+[b]Var Name : [/b]mxVote_timeout (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\ManiaExchange\mxVote_timeout[] = 60
+[/code]
+
+[h2]Number of Voters[/h2]
+'0' means only active players, '1' means any player, '2' is for everybody, pure spectators included
+
+[b]Var Name : [/b]mxVote_voters (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\ManiaExchange\mxVote_voters[] = 1
+[/code]
+
+[h2]New Map auto juke[/h2]
+whaever newly added maps should be put to jukebox
+
+[b]Var Name : [/b]juke_newmaps (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\ManiaExchange\juke_newmaps[] = true
+[/code]
+

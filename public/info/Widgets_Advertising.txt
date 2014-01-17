@@ -1,0 +1,65 @@
+[h1]Configuration options[/h1]
+[h2]url[/h2]
+redirect url onclick
+
+[b]Var Name : [/b]url (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\url[] = http://www.ml-expansion.com
+[/code]
+
+[h2]imageUrl[/h2]
+image url
+
+[b]Var Name : [/b]imageUrl (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\imageUrl[] = http://reaby.kapsi.fi/ml/exp_small.png
+[/code]
+
+[h2]imageFocusUrl[/h2]
+image url on hover
+
+[b]Var Name : [/b]imageFocusUrl (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\imageFocusUrl[] = http://reaby.kapsi.fi/ml/exp_small.png
+[/code]
+
+[h2]imageSizeX[/h2]
+image sizeX in pixels
+
+[b]Var Name : [/b]imageSizeX (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\imageSizeX[] = 512
+[/code]
+
+[h2]imageSizeY[/h2]
+image sizeY in pixels
+
+[b]Var Name : [/b]imageSizeY (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\imageSizeY[] = 128
+[/code]
+
+[h2]size[/h2]
+image width in maniaplanet display units
+
+[b]Var Name : [/b]size (int)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\size[] = 20
+[/code]
+
+[h2]x[/h2]
+image position x in maniaplanet display units
+
+[b]Var Name : [/b]x (float)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\x[] = 0
+[/code]
+
+[h2]y[/h2]
+image position y in maniaplanet display units
+
+[b]Var Name : [/b]y (float)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Widgets_Advertising\y[] = 90
+[/code]
+

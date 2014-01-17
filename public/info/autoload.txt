@@ -9,5 +9,12 @@ add following line to [code]ManiaLive\config\config.ini[/code]
 [/source]
 
 [h1]Configuration options[/h1]
+[h2]Disabling a Plugin[/h2]
+Set plugins to disable
 
-none.
+[b]Var Name : [/b]disable (array( string))
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\AutoLoad\disable[] = 
+[/code]
+
+Allows you to disable plugins that are automatically loaded by the Autoloader

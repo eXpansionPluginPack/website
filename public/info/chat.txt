@@ -5,13 +5,51 @@ Customizes the chatbox text.
 This plugin is Autoloaded.
 
 [h1]Configuration options[/h1]
-you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+[h2]publicChatColor[/h2]
+public chat color for server
 
-[source]
-ManiaLivePlugins\eXpansion\Chat\Config.publicChatColor = '$ff0'
-ManiaLivePlugins\eXpansion\Chat\Config.otherServerChatColor = '$0d0'
-ManiaLivePlugins\eXpansion\Chat\Config.adminChatColor = '$ff0'
-ManiaLivePlugins\eXpansion\Chat\Config.adminSign = ""
-ManiaLivePlugins\eXpansion\Chat\Config.chatSeparator = '$w$0ff·$z$s '
-ManiaLivePlugins\eXpansion\Chat\Config.allowMPcolors = true
-[/source]	
+[b]Var Name : [/b]publicChatColor (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Chat\publicChatColor[] = $ff0
+[/code]
+
+[h2]otherServerChatColor[/h2]
+public chat color for relay server
+
+[b]Var Name : [/b]otherServerChatColor (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Chat\otherServerChatColor[] = $0d0
+[/code]
+
+[h2]adminChatColor[/h2]
+admin chat color
+
+[b]Var Name : [/b]adminChatColor (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Chat\adminChatColor[] = $ff0
+[/code]
+
+[h2]adminSign[/h2]
+prefix for admin
+
+[b]Var Name : [/b]adminSign (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Chat\adminSign[] = 
+[/code]
+
+[h2]chatSeparator[/h2]
+separator for nickname and chat
+
+[b]Var Name : [/b]chatSeparator (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Chat\chatSeparator[] = $w$0ff·$z$s 
+[/code]
+
+[h2]allowMPcolors[/h2]
+allow changing maniaplanet chat color
+
+[b]Var Name : [/b]allowMPcolors (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Chat\allowMPcolors[] = true
+[/code]
+

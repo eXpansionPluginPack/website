@@ -5,33 +5,165 @@ The basis of the pluginpack.
 This plugin is Autoloaded.
 
 [h1]Configuration options[/h1]
-you can alter the plugin options by adding these lines to [code]ManiaLive\config\config.ini[/code]
+[h2]debug[/h2]
+set plugins package to debug mode
 
-[source]
-ManiaLivePlugins\eXpansion\Core\Config.debug = false;
-ManiaLivePlugins\eXpansion\Core\Config.language = null;
-ManiaLivePlugins\eXpansion\Core\Config.defaultLanguage = null;
-ManiaLivePlugins\eXpansion\Core\Config.Colors_admin_error = '$f44';  // error message color for admin
-ManiaLivePlugins\eXpansion\Core\Config.Colors_error = '$f00';   // general error message color
-ManiaLivePlugins\eXpansion\Core\Config.Colors_admin_action = '$0ae'; // admin actions color
-ManiaLivePlugins\eXpansion\Core\Config.Colors_variable = '$eee'; // generic variable color
-ManiaLivePlugins\eXpansion\Core\Config.Colors_record = '$6EF'; // all other local records
-ManiaLivePlugins\eXpansion\Core\Config.Colors_record_top = '$6f3'; // top5 local records
-ManiaLivePlugins\eXpansion\Core\Config.Colors_rank = '$ff0'; // used in record messages for rank
-ManiaLivePlugins\eXpansion\Core\Config.Colors_time = '$fff';
-ManiaLivePlugins\eXpansion\Core\Config.Colors_rating = '$fb3'; // map ratings color
-ManiaLivePlugins\eXpansion\Core\Config.Colors_queue = '$8af';  // map queue messages
-ManiaLivePlugins\eXpansion\Core\Config.Colors_dedirecord = '$69C'; // dedimania records
-ManiaLivePlugins\eXpansion\Core\Config.Colors_donate = '$a0f'; // donate
-ManiaLivePlugins\eXpansion\Core\Config.Colors_personalmessage = '$0ff'; // personal messages
-ManiaLivePlugins\eXpansion\Core\Config.Colors_admingroup_chat = '$f00'; // personal messages
-ManiaLivePlugins\eXpansion\Core\Config.Colors_player = '$z$s$29f';  // used in joinleave-messages
-ManiaLivePlugins\eXpansion\Core\Config.Colors_music = '$f0a';       // music box
-ManiaLivePlugins\eXpansion\Core\Config.Colors_quiz = '$z$s$3e3';    // quiz
-ManiaLivePlugins\eXpansion\Core\Config.Colors_question = '$z$s$o$fa0';  // quiz answer
-    
-ManiaLivePlugins\eXpansion\Core\Config.time_dynamic_max = '7:00';  // dynamic timelimit max time for /ta dynamic <x>
-ManiaLivePlugins\eXpansion\Core\Config.time_dynamic_min = '4:00';  // dynamic timelimit min time for /ta dynamic <x>
-    
-ManiaLivePlugins\eXpansion\Core\Config.API_Version = '2013-05-16'; //ApiVersion can be 2011-10-06 for TM and 2013-04-16 for SM Add in config 
-[/source]	
+[b]Var Name : [/b]debug (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\debug[] = false
+[/code]
+
+[h2]language[/h2]
+[b]Var Name : [/b]language (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\language[] = 
+[/code]
+
+[h2]defaultLanguage[/h2]
+forces default language to all (not recommended)
+
+[b]Var Name : [/b]defaultLanguage (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\defaultLanguage[] = 
+[/code]
+
+[h2]Colors_admin_error[/h2]
+[b]Var Name : [/b]Colors_admin_error (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_admin_error[] = $f44
+[/code]
+
+[h2]Colors_error[/h2]
+[b]Var Name : [/b]Colors_error (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_error[] = $f00
+[/code]
+
+[h2]Colors_admin_action[/h2]
+[b]Var Name : [/b]Colors_admin_action (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_admin_action[] = $0ae
+[/code]
+
+[h2]Colors_variable[/h2]
+[b]Var Name : [/b]Colors_variable (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_variable[] = $eee
+[/code]
+
+[h2]Colors_record[/h2]
+[b]Var Name : [/b]Colors_record (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_record[] = $6EF
+[/code]
+
+[h2]Colors_record_top[/h2]
+[b]Var Name : [/b]Colors_record_top (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_record_top[] = $6f3
+[/code]
+
+[h2]Colors_rank[/h2]
+[b]Var Name : [/b]Colors_rank (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_rank[] = $ff0
+[/code]
+
+[h2]Colors_time[/h2]
+[b]Var Name : [/b]Colors_time (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_time[] = $fff
+[/code]
+
+[h2]Colors_rating[/h2]
+[b]Var Name : [/b]Colors_rating (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_rating[] = $fb3
+[/code]
+
+[h2]Colors_queue[/h2]
+[b]Var Name : [/b]Colors_queue (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_queue[] = $8af
+[/code]
+
+[h2]Colors_dedirecord[/h2]
+[b]Var Name : [/b]Colors_dedirecord (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_dedirecord[] = $69C
+[/code]
+
+[h2]Colors_donate[/h2]
+[b]Var Name : [/b]Colors_donate (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_donate[] = $a0f
+[/code]
+
+[h2]Colors_personalmessage[/h2]
+[b]Var Name : [/b]Colors_personalmessage (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_personalmessage[] = $0ff
+[/code]
+
+[h2]Colors_admingroup_chat[/h2]
+[b]Var Name : [/b]Colors_admingroup_chat (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_admingroup_chat[] = $f00
+[/code]
+
+[h2]Colors_player[/h2]
+[b]Var Name : [/b]Colors_player (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_player[] = $z$s$29f
+[/code]
+
+[h2]Colors_music[/h2]
+[b]Var Name : [/b]Colors_music (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_music[] = $f0a
+[/code]
+
+[h2]Colors_quiz[/h2]
+[b]Var Name : [/b]Colors_quiz (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_quiz[] = $z$s$3e3
+[/code]
+
+[h2]Colors_question[/h2]
+[b]Var Name : [/b]Colors_question (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\Colors_question[] = $z$s$o$fa0
+[/code]
+
+[h2]time_dynamic_max[/h2]
+dynamic timelimit max time for /ta dynamic <x>
+
+[b]Var Name : [/b]time_dynamic_max (mmss)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\time_dynamic_max[] = 7:00
+[/code]
+
+[h2]time_dynamic_min[/h2]
+dynamic timelimit min time for /ta dynamic <x>
+
+[b]Var Name : [/b]time_dynamic_min (mmss)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\time_dynamic_min[] = 4:00
+[/code]
+
+[h2]API_Version[/h2]
+ApiVersion can be 2011-10-06 for TM and 2013-04-16 for SM Add in config
+
+[b]Var Name : [/b]API_Version (string)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\API_Version[] = 2011-10-06
+[/code]
+
+[h2]enableRanksCalc[/h2]
+calculation of player ranks on checkpoints, you should disable this server has alot of players in TA-gamemode
+
+[b]Var Name : [/b]enableRanksCalc (bool)
+[h3]Default Configuration[/h3]
+[code]ManiaLivePlugins\eXpansion\Core\enableRanksCalc[] = true
+[/code]
+
