@@ -1,8 +1,0 @@
-﻿[h1]ChatLog[/h1]
-provides last 100 lines of chat history browsable in a window
-
-[h1]how to enable[/h1]
-This plugin is Autoloaded.
-
-[h1]Configuration options[/h1]
-none.	

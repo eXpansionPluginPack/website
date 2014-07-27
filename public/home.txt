@@ -1,2 +1,0 @@
-[jumbo][h1]Welcome[/h1]eXpansion pluginpack is a set of plugins for ManiaLive servercontroller![h4]The main idea of this project is to provide clean but yet powerful user interface that any one can administrate or use with ease.[/h4]
-[button=info/features]See features[/button][/jumbo]

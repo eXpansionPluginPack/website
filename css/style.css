@@ -1,0 +1,50 @@
+.center {
+text-align: center;
+}
+
+#logo {
+margin-bottom: 1.5em;
+}
+
+.bg {
+background: url("../img/bg.jpg");
+background-origin: content-box;
+}
+
+.rounded {
+    border-radius: 9px;
+    border: 1px solid #aaa;
+    box-shadow: 2px 2px 12px rgba(0,0,25,0.4);
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #2d7091;
+}
+
+/* 
+.bgnav {
+background: url("../img/bg.jpg");
+background-position: left -40px;
+border-radius:  0 0 8px 8px;
+
+}
+
+nav a:hover {
+background: url("../img/bg.jpg");
+background-position: left center;
+border-left: none;
+margin-left: 0;
+border-radius: 8px;
+color: #fff !important;
+text-shadow: 0 1px 1px black;
+}
+
+nav .uk-active a {
+text-shadow: none;
+color: white !important;
+text-shadow: 0 1px 1px black;
+border-radius: 8px;
+background: url("../img/bg.jpg");
+background-position: left bottom;
+}
+ */

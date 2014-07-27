@@ -1,9 +1,0 @@
-﻿[h1]Widgets_Times[/h1]
-shows difference to your personal best or top1 time of the map, triggers on checkpoint.
-
-
-[h1]how to enable[/h1]
-autoloaded.
-
-[h1]Configuration options[/h1]
-none.

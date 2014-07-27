@@ -1,8 +1,0 @@
-﻿[h1]Widgets_Clock[/h1]
-adds server name and clock to top left corner of the screen
-
-[h1]how to enable[/h1]
-autoloaded.
-
-[h1]Configuration options[/h1]
-none.

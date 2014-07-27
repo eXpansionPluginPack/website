@@ -1,9 +1,0 @@
-﻿[h1]Menu[/h1]
-a menu plugin for easy access to plugins so no chat commands are needed
-[img]/img/menu.jpg[/img]
-
-[h1]how to enable[/h1]
-This plugin is Autoloaded.
-
-[h1]Configuration options[/h1]
-none.

@@ -1,9 +1,0 @@
-﻿[h1]JoinLeaveMessage[/h1]
-Adds info on joining and leaving players.
-It will also show if a joining player is streaming using ManiaPlanet Twitch.tv broadcast ability.
-
-[h1]how to enable[/h1]
-This plugin is Autoloaded.
-
-[h1]Configuration options[/h1]
-none.
