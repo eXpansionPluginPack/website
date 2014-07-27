@@ -51,15 +51,26 @@
 
                         <?php if(isset($captions[$img])) : ?>
 
-                            <div class="uk-overlay">
-                                <img data-lazy="img/screens/<?php echo $img; ?>"/>
+                            <div class="uk-overlay slider-item">
+                                <h3 class="loading">Image Loading ...</h3>
+                                <img class="bg-image" data-lazy="img/screens/<?php echo $img; ?>"/>
                                 <div class="uk-overlay-caption">
                                     <?php echo $captions[$img] ?>
                                 </div>
                             </div>
+
+                            <div class="uk-overlay slider-item">
+                                <h3 class="loading">Image Loading ...</h3>
+                                <img class="bg-image" data-lazy="img/screen/<?php echo $img; ?>"/>
+                                <div class="uk-overlay-caption">
+                                    <?php echo $captions[$img] ?>
+                                </div>
+                            </div>
+
                         <?php else: ?>
-                            <div>
-                                <img data-lazy="img/screens/<?php echo $img; ?>"/>
+                            <div class="slider-item">
+                                <h3 class="loading">Image Loading ...</h3>
+                                <img class="bg-image" data-lazy="img/screens/<?php echo $img; ?>"/>
                             </div>
 
                         <?php endif; ?>

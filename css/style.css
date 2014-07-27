@@ -21,6 +21,19 @@ background-origin: content-box;
     color: #2d7091;
 }
 
+.slick .slider-item img.bg-image{
+    min-width: 1130;
+    min-height: 700px;
+}
+
+.slick .slider-item .loading{
+    position: fixed;
+    left: calc(50% - 150px);
+    top: 50%;
+    width: 300px;
+    text-align: center;
+}
+
 /* 
 .bgnav {
 background: url("../img/bg.jpg");
