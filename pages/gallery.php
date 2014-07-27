@@ -8,6 +8,20 @@
                 lazyLoad: 'ondemand'
             });
         });
+
+        $("body").keydown(function(e){
+            // left arrow
+            if ((e.keyCode || e.which) == 37)
+            {
+                jQuery('.slick-prev').click();
+            }
+            // right arrow
+            if ((e.keyCode || e.which) == 39)
+            {
+                jQuery('.slick-next').click();
+            }
+        });
+
     </script>
 
     <div class="uk-grid" data-uk-grid-margin>
