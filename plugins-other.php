@@ -33,7 +33,7 @@
             <!-- content -->
 
             <?php
-            include("pages/features.php");
+            include("pages/plugins-other.php");
             ?>				
         </div>
 

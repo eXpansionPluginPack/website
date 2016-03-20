@@ -14,7 +14,7 @@
         </p>    
     </div>
     <div class="uk-width-medium-1-2">
-        <img width="660" height="400" src="img/screens/Plugins.jpg" class="rounded" alt="">
+        <img width="660" height="400" src="img/screens/040 - Hud.jpg" class="rounded" alt="">
     </div>
 </div>
 
@@ -135,7 +135,7 @@
             </div>
             <div class="uk-width-5-6">
                 <h2 class="uk-h3">International</h2>
-                <p>eXpansion supports multilingual messages. So translating eXpansion for a new language isn't hacking it it just part of what it is suppose to do. Contact us if you wish to work on the translations</p>
+                <p>eXpansion supports multilingual messages. So translating eXpansion for a new language isn't hacking. It just part of what it is meant to do. Contact us if you wish to work on the translations</p>
             </div>
         </div>
     </div>

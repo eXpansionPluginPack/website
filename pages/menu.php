@@ -8,6 +8,12 @@
     <a href="gallery.php">Gallery</a>
 </li>
 <li>
+    <a href="plugins.php">Core Plugins</a>
+</li>
+<li>
+    <a href="plugins-other.php">Other Plugins</a>
+</li>
+<li>
     <a href="download.php">Download</a>
 </li>
 <li>

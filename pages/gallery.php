@@ -44,6 +44,8 @@
 
 
                     $imgs = scandir('img/screens/');
+					
+					sort($imgs, SORT_STRING);
                 ?>
                 <?php foreach($imgs as $img) : ?>
 
