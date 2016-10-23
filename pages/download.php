@@ -6,10 +6,22 @@
    <hr class="uk-grid-divider">
    
    
-   <div class="uk-grid">		
+   <div class="uk-grid">	
+
    <div class="uk-width-1-6 uk-text-right">
-                <h2>Current (1.0.0.5)</h2>
-                <a href="http://files.oliver-decramer.com/data/downloads/pers/mp/ml/eXpansion/eXpansion-1.0.0.5.zip" class="uk-button uk-button-success">Download</a>
+                <h2>Current (1.0.1.2)</h2>
+                <a href="http://files.oliver-decramer.com/data/downloads/pers/mp/ml/eXpansion/eXpansion-1.0.1.2.zip" class="uk-button uk-button-success">Download</a>
+            </div>
+			<div class="uk-width-5-6">
+                <p>Released at 23.10.2016<br/>
+                    see <a href="https://forum.maniaplanet.com/viewtopic.php?f=518&t=38546#p272213">forum posting</a> for changelog, migrating and more info.</p>
+            </div>			
+			</div>	
+	<hr class="uk-grid-divider"> 
+	<div class="uk-grid">	
+   <div class="uk-width-1-6 uk-text-right">
+                <h2>1.0.0.5</h2>
+                <a href="http://files.oliver-decramer.com/data/downloads/pers/mp/ml/eXpansion/eXpansion-1.0.0.5.zip" class="uk-button uk-button">Download</a>
             </div>
 			<div class="uk-width-5-6">
 
